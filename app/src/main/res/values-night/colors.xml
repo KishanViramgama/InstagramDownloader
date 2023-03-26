@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="toolBar_color">#000000</color>
+    <color name="app_background">#000000</color>
+    <color name="drawer_bg">#222222</color>
+    <color name="drawer_item">#FFFFFF</color>
+    <color name="drawer_item_selected">#FF9800</color>
+
+    <color name="textView_info">#FFFFFF</color>
+    <color name="active_indicator">#FFBF00</color>
+    <color name="deActive_indicator">#FFFFFF</color>
+
+    <color name="tab_indicator">#FFFFFF</color>
+    <color name="tabView_text">#99FFFFFF</color>
+    <color name="editText_bg_color">#323336</color>
+    <color name="button_bg_main">#FFFFFF</color>
+    <color name="text_button_main">#EC407A</color>
+
+    <color name="con_option_bg_show">#40000000</color>
+
+    <color name="textView_guidance">#EC407A</color>
+    <color name="imageView_about_us">#FFFFFF</color>
+    <color name="textView_about_us">#FFFFFF</color>
+    <color name="textView_sub_about_us">#CCFFFFFF</color>
+    <color name="view_setting">#A6FFFFFF</color>
+    <color name="imageView_setting">#FFFFFF</color>
+    <color name="textView_setting">#FFFFFF</color>
+    <color name="textView_sub_setting">#CCFFFFFF</color>
+    <color name="textView_them">#FFFFFF</color>
+    <color name="con_bg_them">#302C2C</color>
+
+    <color name="bg_nf">#222222</color>
+    <color name="textView_nf">#FFFFFF</color>
+    <color name="text_button_nf">#FFFFFF</color>
+    <color name="progress_bar_nf">#CCFFFFFF</color>
+    <color name="progress_bar_status_nf">#EC407A</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="textViewNoData">#FFFFFF</color>
+
+    <color name="switch_thumb_unSelect">#ADADAD</color>
+    <color name="dialog_text">#FFFFFF</color>
+    <color name="dialog_text_button">#FFFFFF</color>
+    <color name="editText">#FFFFFF</color>
+    <color name="cursor_editText">#FFFFFF</color>
+    <color name="bg_button">#EC407A</color>
+    <color name="textView_app_color">#EC407A</color>
+    <color name="progressbar_style">#FFFFFF</color>
+
+    <color name="textView_loading_dialog">#FFFFFF</color>
+    <color name="cardView_loading_dialog">#1B1A1A</color>
+    <color name="splashBg">#1B1A1A</color>
+
+</resources>

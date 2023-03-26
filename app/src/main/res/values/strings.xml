@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Instance</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="play_more_app">https://play.google.com/store/apps/</string>
+    <string name="privacy_policy_link">https://www.privacypolicy.com</string>
+
+    <string name="notificationChanelAction">Instance copy detection</string>
+    <string name="notificationChanelDownload">Instance download</string>
+    <string name="default_notification_channel_id">Instance</string>
+
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="intro_one">First of all open this app then after open the Instagram app. click copy link option in image and video.</string>
+    <string name="intro_two">Then after view in this app</string>
+    <string name="intro_one_ten">First of all open this app then after open the Instagram app. click copy link option in image and video.</string>
+    <string name="intro_two_ten">Then after past link in url section in this app</string>
+
+    <string name="home">Home</string>
+    <string name="image">Image</string>
+    <string name="video">Video</string>
+    <string name="rate_app">Rate App</string>
+    <string name="more_app">More App</string>
+    <string name="share_app">Share App</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="setting">Setting</string>
+
+    <string name="submit">Submit</string>
+    <string name="enter_url">Enter copy url</string>
+    <string name="please_enter_url">Please enter copy url</string>
+
+    <string name="exit">Exit</string>
+    <string name="share_to">Share to</string>
+    <string name="wrong">Some thing went to wrong</string>
+    <string name="allow_permission">Allow permission</string>
+    <string name="app_not_install">Instagram application not install</string>
+    <string name="internet_connection">Internet connection not available</string>
+    <string name="Please_click_BACK_again_to_exit">Please click BACK again to exit</string>
+    <string name="Let_me_recommend_you_this_application">Let me recommend you this application</string>
+    <string name="download_msg">First of all one download complete then after you can another download</string>
+
+    <string name="app_name_about_us">Instance</string>
+    <string name="about_us_version">Verson</string>
+    <string name="about_us_version_text">1.0.0</string>
+    <string name="about_us_email">Email</string>
+    <string name="about_us_email_text">Your email id</string>
+    <string name="about_us_about">About</string>
+    <string name="about_us_detail">About us detail</string>
+
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="download">Download</string>
+    <string name="set_as_wallpaper">Set Wallpaper</string>
+
+    <string name="loading">Loading....</string>
+    <string name="downloading">Downloading</string>
+    <string name="no_data_found">No data found</string>
+    <string name="not_support">Not Supported</string>
+    <string name="service_start">Download service start</string>
+    <string name="copy_share_link">Click copy and share link</string>
+    <string name="stop">Stop</string>
+    <string name="service_off">Download Service off</string>
+    <string name="service_on">Download Service on</string>
+
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete_title">Are you sure you want to delete this file</string>
+
+    <string name="delete_confirmation">Delete confirmation message</string>
+    <string name="guidance">Guidance</string>
+    <string name="use">How to use this application</string>
+    <string name="introduction">Introduction video how to use this application</string>
+
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="choose_one">Choose one</string>
+    <string name="system_default">System default</string>
+
+    <string name="mb">Mb</string>
+    <string name="cash_file">Cash file</string>
+    <string name="clear_cash_memory">Clear cash memory</string>
+    <string name="msgNfNotAllow">Please allow the notification otherwise you will not be able to see download progress</string>
+
+</resources>

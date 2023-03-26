@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="5dp"
+    android:background="@color/bg_nf">
+
+    <ImageView
+        android:id="@+id/nf_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_notification" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toStartOf="@+id/button_stop"
+        android:layout_toEndOf="@+id/nf_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nf_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:text="@string/service_start"
+            android:textColor="@color/textView_nf"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/nf_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copy_share_link"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/textView_nf"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/stop"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/text_button_nf"
+        android:background="@drawable/button_bg" />
+
+</RelativeLayout>

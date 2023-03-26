@@ -1,0 +1,108 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+}
+
+android {
+
+    namespace 'com.app.instancedownload'
+
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.app.instancedownload"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 5
+        versionName "2.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildTypes.each {
+        it.buildConfigField 'String', 'downloadUrl', downloadUrl
+        it.buildConfigField 'String', 'youtubeApi', youtubeApi
+        it.buildConfigField 'String', 'youtubeId', youtubeId
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures{
+        dataBinding = true
+    }
+
+    // Allow references to generated code
+    kapt {
+        correctErrorTypes true
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.lifecycle:lifecycle-process:2.6.0'
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0-alpha4', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.loopj.android:android-async-http:1.4.11'
+    implementation 'io.github.lizhangqu:coreprogress:1.0.2'
+    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+
+    //Exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.18.4'
+
+    //Image cropper
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+    //Font library
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+
+    //Page indicator view
+    implementation 'com.romandanylyk:pageindicatorview:1.0.3'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'commons-io:commons-io:2.8.0'
+
+    //Youtube player
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10'
+
+    //coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+
+    //hilt
+    implementation 'com.google.dagger:hilt-android:2.44'
+    kapt 'com.google.dagger:hilt-android-compiler:2.44'
+
+    //Data store
+    implementation 'androidx.datastore:datastore-preferences:1.0.0'
+
+    // LiveData
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.0'
+
+    //Splash screen
+    implementation 'androidx.core:core-splashscreen:1.0.0'
+
+}

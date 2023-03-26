@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_switch"
+            android:checkable="false"
+            android:checked="false"
+            android:icon="@drawable/inst"
+            android:title="@string/service_off"
+            app:actionLayout="@layout/switch_layout" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="@string/setting" />
+    </group>
+</menu>
