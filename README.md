@@ -22,5 +22,5 @@ Instagram image, video, ig and reels downloader
 
 
 # Donations
-<b>if you like this project and use this project please donation for covid-19</b> <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">https://www.who.int/</a>
+<b>Hello if you like a this project then donation some your love of the health and education field. who has really need of this.</b>
 
