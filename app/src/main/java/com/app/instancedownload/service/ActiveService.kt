@@ -21,7 +21,7 @@ class ActiveService : Service() {
 
     private val chanelId = 104
     private lateinit var remoteViews: RemoteViews
-    private lateinit var notificationChanelId :String
+    private lateinit var notificationChanelId: String
     private lateinit var builder: NotificationCompat.Builder
     private lateinit var mNotificationManager: NotificationManager
 
